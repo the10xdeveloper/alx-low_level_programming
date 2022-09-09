@@ -3,7 +3,6 @@
  * main - prints the alphabet in lowercase 
  * and skips q and e
  * Return: 0
- *
  */
 int main(void)
 {
