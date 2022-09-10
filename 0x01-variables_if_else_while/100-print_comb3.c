@@ -8,23 +8,25 @@
  */
 int main(void)
 {
-	int n, m;
+	int x, y, z;
 
-	for (n = 58; n <= 66; n++)
+	x = 0;
+
+	while (x < 100)
 	{
-		for (m = 59; m <= 67; m++)
+		y = x % 10; /* single digits */
+		z = x / 10; /* double digits */
+		if (z < y)
 		{
-			if (m > n)
+			putchar(z + '0');
+			putchar(y + 0);
+			if (x < 89)
 			{
-				putchar(n);
-				putchar(m);
-				if (n != 66 || m != 67)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
+		x++;
 	}
 	putchar('\n');
 	return (0);
