@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - this program is desogned to print all different
  * number combinations of two digits
@@ -19,7 +18,7 @@ int main(void)
 		if (z < y)
 		{
 			putchar(z + '0');
-			putchar(y + 0);
+			putchar(y + '0');
 			if (x < 89)
 			{
 				putchar(',');
