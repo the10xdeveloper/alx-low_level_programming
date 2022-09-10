@@ -17,9 +17,9 @@ int main(void)
 		b = i % 10;
 		for (j = 0; j < 100; j++)
 		{
-			c = j /10;
+			c = j / 10;
 			d = j % 10;
-			if (a < c || ( a == c && b < d))
+			if (a < c || (a == c && b < d))
 			{
 				putchar(a + '0');
 				putchar(b + '0');
