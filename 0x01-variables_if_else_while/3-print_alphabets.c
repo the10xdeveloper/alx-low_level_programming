@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
- * main - this program prints alpahbets in lower case 
- * and then in uppercase
+ * main - this program prints alpahbets
+ * in lowercase and then in uppercase
  * Return: 0
- *
  */
 int main(void)
 {
