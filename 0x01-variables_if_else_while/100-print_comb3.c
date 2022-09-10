@@ -22,8 +22,8 @@ int main(void)
 			putchar(y + 0);
 			if (x < 89)
 			{
-				putchar(44);
-				putchar(32);
+				putchar(',');
+				putchar(' ');
 			}
 		}
 		x++;
